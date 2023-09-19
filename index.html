@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>C-Work</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+    </head>
+    <body>
+        <!-- 1. Navbar Desktop -->
+        <!-- 2. Navbar Hamburger -->
+        <!-- 3. Hero Section -->
+        <!-- 4. Hire Section -->
+        <!-- 5. About Section -->
+        <!-- 6. Contact Section -->
+
+        <!-- 1. Navbar Desktop -->
+        <nav id="desktop-nav">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/logo.png" alt="logo" />
+                </a>
+            </div>
+
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#hire">Hire</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End of Navbar Desktop -->
+
+        <!-- 2. Hamburger Navbar -->
+        <nav id="hamburger-nav">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/logo2.png" alt="" />
+                </a>
+            </div>
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <li><a href="#hire" onclick="toggleMenu()">Hire</a></li>
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- End of Hamburger navbar -->
+
+        <!-- 3. Hero Section -->
+        <section id="hero-section">
+            <div class="hero-image-container">
+                <img src="assets/hero-image.png" alt="Network image" />
+            </div>
+
+            <div class="section-text">
+                <h1>Looking for a star?</h1>
+                <h2>
+                    Find the <span class="colored-span">perfect</span> employee,
+                </h2>
+                <h3>Today!</h3>
+                <button class="btn" onclick="location.href='#hire'">
+                    Hire Now
+                </button>
+            </div>
+        </section>
+        <!-- End Hero Section -->
+
+        <!-- 4. Hire Section -->
+        <section id="hire">
+            <div class="hire-container">
+                <div class="hire-text">
+                    <h2>Hire <span class="colored-span">Designers</span></h2>
+                    <p>
+                        Introducing our dynamic designer team, a synergy of
+                        talents that transforms concepts into captivating
+                        designs. With diverse skills and a shared commitment to
+                        excellence, they bring unparalleled creativity to every
+                        project.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://www.google.com/">UX Desginer</a>
+                        </li>
+                        <li><a href="https://www.google.com/"> Designer</a></li>
+                        <li>
+                            <a href="https://www.google.com/"
+                                >Graphic Desginer</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/"
+                                >Product Desginer</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="hire-image-container">
+                    <img src="assets/hire-designers.png" alt="engineer image" />
+                </div>
+            </div>
+
+            <div class="hire-container">
+                <div class="hire-image-container">
+                    <img src="assets/hire-engineers.png" alt="designer image" />
+                </div>
+                <div class="hire-text">
+                    <h2>Hire <span class="colored-span2">engineers</span></h2>
+                    <p>
+                        Introducing our accomplished engineering team, a
+                        powerhouse of diverse expertise. With a collective
+                        passion for innovation and precision, they craft
+                        solutions that push boundaries and deliver excellence in
+                        every project.
+                    </p>
+                    <ul>
+                        <li>
+                            <a href="https://www.google.com/"
+                                >Software Engineer</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/">
+                                Mechanical Engineer</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/"
+                                >Electrical Engineer</a
+                            >
+                        </li>
+                        <li>
+                            <a href="https://www.google.com/">Civil Engineer</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- End of Hire Section -->
+
+        <!-- 6. About Section -->
+        <section id="about">
+            <h1><span class="colored-span">About</span> us</h1>
+            <h2>
+                Discover more about the
+                <span class="colored-span2">process</span>
+            </h2>
+
+            <div class="about-container">
+                <div class="about-p">
+                    <h3>Our Story</h3>
+                    <p>
+                        <span class="colored-span2">Lorem ipsum,</span> dolor
+                        sit amet consectetur adipisicing elit. Dolorum vero
+                        recusandae architecto exercitationem quae autem expedita
+                        minima obcaecati nihil, itaque illum delectus quas
+                    </p>
+                    <button class="btn">Read more</button>
+                </div>
+                <div class="about-p">
+                    <h3>Why choose us?</h3>
+                    <p>
+                        <span class="colored-span2">Lorem ipsum,</span> dolor
+                        sit amet consectetur adipisicing elit. Dolorum vero
+                        recusandae architecto exercitationem quae autem expedita
+                        minima obcaecati nihil, itaque illum delectus quas
+                    </p>
+                    <button class="btn">Read more</button>
+                </div>
+                <div class="about-p">
+                    <h3>Next Step</h3>
+                    <p>
+                        <span class="colored-span2">Lorem ipsum,</span> dolor
+                        sit amet consectetur adipisicing elit. Dolorum vero
+                        recusandae architecto exercitationem quae autem expedita
+                        minima obcaecati nihil, itaque illum delectus quas
+                    </p>
+                    <button class="btn">Contact now</button>
+                </div>
+            </div>
+            <hr />
+            <h1>Review</h1>
+            <h2>Customers <span class="colored-span2">opinion</span></h2>
+            <div class="about-ratings">
+                <div class="testimonial">
+                    <img
+                        src="assets/testimonial1.png"
+                        alt="profile pic on customer"
+                    />
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Recusandae blanditiis quibusdam vel ipsam
+                            velit? Sint vel vitae
+                        </p>
+                        <h3>William Mattsson - CEO</h3>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <img
+                        src="assets/testimonial2.png"
+                        alt="profile pic on customer"
+                    />
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Recusandae blanditiis quibusdam vel ipsam
+                            velit? Sint vel vitae
+                        </p>
+                        <h3>William Mattsson - CEO</h3>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="linkedin-container"
+                onclick="location.href='https://www.linkedin.com/feed/'"
+            >
+                <p>See more about us at LinkedIn</p>
+                <img src="assets/icons8-linkedin-48.png" alt="linkedin icon" />
+            </div>
+            <hr class="hr2" />
+        </section>
+        <!-- End of about Section -->
+
+        <!-- 7. Contact Section -->
+        <section id="contact">
+            <h1><span class="colored-span">Reach</span> us</h1>
+            <h2>
+                Feel free to <span class="colored-span2">contact</span> us
+                <span class="colored-span2"></span>
+            </h2>
+            <div class="newsletter-container">
+                <h3>Be the first to know when we update,</h3>
+                <h4>Subscribe to our newsletter</h4>
+                <p>Weekly update</p>
+                <form>
+                    <input
+                        type="email"
+                        name="Email"
+                        placeholder="Your email..."
+                        required
+                    />
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <hr class="gradient" />
+        </section>
+        <!-- End of Contact Section -->
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer">
+                <div class="logo">
+                    <a href="#"><img src="assets/logo.png" alt="logo" /></a>
+                </div>
+                <div class="contact-links">
+                    <div class="contact-link-container">
+                        <img
+                            src="assets/icons8-email-50.png"
+                            alt="email icon"
+                        />
+                        <a href="mailto:wmattsson@hotmail.com">Email</a>
+                    </div>
+                    <div class="contact-link-container">
+                        <img
+                            src="assets/icons8-linkedin-50.png"
+                            alt="linkedin icon"
+                        />
+                        <a href="">LinkedIn</a>
+                    </div>
+                    <div class="contact-link-container">
+                        <img
+                            src="assets/icons8-phone-50.png"
+                            alt="phone icon"
+                        />
+                        <a href="">Call us</a>
+                    </div>
+                    <div class="contact-link-container">
+                        <img
+                            src="assets/icons8-facebook-50.png"
+                            alt="facebook icon"
+                        />
+                        <a href="">Facebook</a>
+                    </div>
+                    <div></div>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#hire">Hire</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">
+                Copyright &#169; 2023 William Mattsson. All Rights Reserved.
+            </p>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
