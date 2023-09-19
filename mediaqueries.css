@@ -14,10 +14,6 @@
         display: block;
     }
 
-    section {
-        margin: 0 10%;
-    }
-
     .hero-image-container {
         width: 300px;
         height: 300px;
@@ -31,20 +27,134 @@
         margin-top: 2rem;
     }
 
-    .section-text h1 {
-        font-size: 2.8rem;
-    }
-
     .section-text h2 {
-        font-size: 2rem;
-    }
-
-    .section-text h3 {
-        font-size: 3rem;
+        font-size: 1.6rem;
     }
 
     .btn {
         padding: 1.4rem;
         margin-top: 1rem;
+    }
+
+    /* Hire section */
+    /* Fix border-radius */
+    #hire > div:nth-child(1) > div.hire-text {
+        border-radius: 6px 6px 0 0;
+    }
+
+    #hire > div:nth-child(1) > div.hire-image-container img {
+        border-radius: 0 0 6px 6px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    #hire > div:nth-child(2) > div.hire-image-container > img {
+        border-radius: 6px 6px 0 0;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .hire-container {
+        display: block;
+        width: 80%;
+        margin-bottom: 2rem;
+        box-shadow: none;
+        background-color: #eff1f7;
+    }
+
+    .hire-text {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .hire-text {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .hire-text p {
+        text-align: justify;
+        width: 100%;
+    }
+
+    .hire-image-container {
+        width: 100%;
+    }
+
+    /* About section */
+    .about-container {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+
+    .about-ratings {
+        flex-wrap: wrap;
+    }
+
+    .testimonial {
+        width: 100%;
+    }
+}
+
+/* 2. Max-width 600px */
+
+@media screen and (max-width: 600px) {
+    /* Hero section */
+    .hero-image-container {
+        width: 230px;
+        height: 230px;
+    }
+
+    .section-text h1 {
+        font-size: 1.6rem;
+    }
+
+    .section-text h2 {
+        font-size: 1.2rem;
+    }
+
+    /* Hire Section */
+    #hire {
+        margin: auto 0;
+    }
+
+    .hire-container {
+        box-shadow: none;
+        background-color: #eff1f7;
+    }
+
+    .hire-text {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    }
+
+    .hire-text {
+        padding: 1rem;
+    }
+    .hire-text p {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /* Contact Section */
+    .newsletter-container {
+        padding: 1rem;
+    }
+    .newsletter-container h3,
+    .newsletter-container h4,
+    .newsletter-container p {
+        padding-top: 0;
+        font-size: 1rem;
+    }
+
+    /* Footer */
+    .footer {
+        display: block;
+    }
+
+    .footer .logo,
+    .contact-links {
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    .contact-link-container {
+        justify-content: center;
     }
 }
