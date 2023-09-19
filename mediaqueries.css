@@ -154,6 +154,10 @@
         margin-bottom: 1rem;
     }
 
+    .contact-links {
+        border-radius: 0;
+    }
+
     .contact-link-container {
         justify-content: center;
     }
