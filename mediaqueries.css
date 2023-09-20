@@ -38,18 +38,26 @@
 
     /* Hire section */
     /* Fix border-radius */
-    #hire > div:nth-child(1) > div.hire-text {
+    .hire-text {
         border-radius: 6px 6px 0 0;
     }
 
-    #hire > div:nth-child(1) > div.hire-image-container img {
+    .hire-image-container img {
         border-radius: 0 0 6px 6px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     }
 
-    #hire > div:nth-child(2) > div.hire-image-container > img {
-        border-radius: 6px 6px 0 0;
+    #hire > div:nth-child(1) > div.hire-image-container > img {
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+        border-radius: 0 0 6px 6px;
+    }
+
+    #hire-mobile {
+        display: block;
+    }
+
+    #hire > div:nth-child(2) {
+        display: none;
     }
 
     .hire-container {
