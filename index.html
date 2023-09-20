@@ -287,12 +287,19 @@
                 <form>
                     <input
                         type="email"
-                        name="Email"
+                        name="email"
                         placeholder="Your email..."
                         required
                     />
-                    <button type="submit">Subscribe</button>
+                    <button
+                        onclick="return false"
+                        id="newsletter-btn"
+                        type="submit"
+                    >
+                        Subscribe
+                    </button>
                 </form>
+                <span id="thanks-msg"></span>
             </div>
             <hr class="gradient" />
         </section>

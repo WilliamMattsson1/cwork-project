@@ -439,21 +439,19 @@ hr {
         rgba(87, 54, 208, 1) 98%
     );
     opacity: 0.9;
+    text-align: center;
 }
 
 .newsletter-container h3 {
-    text-align: center;
     font-size: 1.4rem;
 }
 
 .newsletter-container h4 {
-    text-align: center;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
 .newsletter-container p {
-    text-align: center;
     font-size: 1.1rem;
 }
 
